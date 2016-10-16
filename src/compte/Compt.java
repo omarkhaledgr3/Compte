@@ -40,6 +40,18 @@ public void affichinfocompte(){
       public void retrait(double montant){
           this.solde=this.solde-montant;
       }
+     import java.util.Scanner;
+    public Class DAB extends Compt {
+        Scanner s= new Scanner(System.in);
+        boolean cond;
+        public void DABI() {
+        do {
+            System.out.println("1_afficher les info ");
+            System.out.println("2_retrait ");
+            System.out.println("3_depot");
+            System.out.println("4_quitter");
+            System.out.println("entrer un num entre 1 et 4");
+            
 
 
           
