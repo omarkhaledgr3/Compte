@@ -52,7 +52,15 @@ public void affichinfocompte(){
             System.out.println("4_quitter");
             System.out.println("entrer un num entre 1 et 4");
             
-
+switch (s.nextInt()) {
+                case 1:
+                    affichinfocompte();
+                    break;
+                case 2:
+                    System.out.println("combien voulez vous retirer ?");
+                    retrait(s.nextDouble());
+                    affichinfocompte();
+                    break;
 
           
 }
