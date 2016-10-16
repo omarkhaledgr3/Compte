@@ -28,7 +28,18 @@ public class Compt {
       public double interets(){
           return this.solde*this.taux/100;
       }
-
+public void affichinfocompte(){
+          System.out.println("le num de compte: "+getnumcompte());
+          System.out.println("votre solde total est de : "+getsolde());
+          System.out.println("votre taux d'interet est de : "+interets());
+          System.out.println("votre solde sans interet est de : "+(getsolde()-interets()));
+      }
+      public void ajouter(double montant){
+          this.solde=this.solde+montant;
+      }
+      public void retrait(double montant){
+          this.solde=this.solde-montant;
+      }
 
 
           
