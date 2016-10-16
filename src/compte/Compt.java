@@ -61,6 +61,17 @@ switch (s.nextInt()) {
                     retrait(s.nextDouble());
                     affichinfocompte();
                     break;
+case 3:
+                    System.out.println("combien voulez vous deposé ?");
+                    ajouter(s.nextDouble());
+                    affichinfocompte();
+                    break;
+                case 4:
+                    cond = false;
+                    break;
 
-          
+            }
+            while (cond) ;
+        }
+    }      
 }
