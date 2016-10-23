@@ -69,9 +69,13 @@ case 3:
                 case 4:
                     cond = false;
                     break;
-
+        
+default
+    System.out.println("un nombre de 1 a 4 svp ");
+        break;
             }
             while (cond) ;
         }
     }      
 }
+    
